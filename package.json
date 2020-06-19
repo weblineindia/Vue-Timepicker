@@ -1,0 +1,23 @@
+{
+  "name": "vue-weblineindia-time-picker",
+  "version": "1.0.0",
+  "description": "A Vue Time picker component to select time/ date-time.",
+  "main": "./lib/Time.vue",
+  "author": "weblineindia",
+  "repository": "https://github.com/weblineindia/Vue-Timepicker",
+  "homepage": "https://www.weblineindia.com/software-development-resources.html",
+  "keywords": [
+    "vue-weblineindia-time-picker",
+    "calendar",
+    "time-picker",
+    "timepicker ",
+    "vue components",
+    "vuejs",
+    "vuejs component"
+  ],
+  "license": "MLT",
+  "dependencies": {
+    "primeicons": "^4.0.0",
+    "primevue": "^2.0.0-rc.1"
+  }
+}

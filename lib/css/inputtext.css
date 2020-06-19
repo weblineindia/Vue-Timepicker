@@ -1,0 +1,103 @@
+.p-inputtext {
+    padding: 0.25em;
+    margin: 0;
+    font-weight: normal;
+    outline: medium none;
+  }
+  
+  .p-fluid .p-inputtext {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .p-inputgroup {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  .p-inputgroup .p-inputgroup-addon {
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0.25em;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .p-inputgroup .p-inputgroup-addon + .p-inputgroup-addon {
+    border-left: 0 none;
+  }
+  
+  .p-inputgroup .p-inputtext {
+    padding-left: 0.5em;
+  }
+  
+  .p-inputgroup .p-inputtext:not(:first-child) {
+    border-left: 0 none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .p-inputgroup .p-inputtext:not(:last-child) {
+    border-right: 0 none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .p-inputgroup .p-button {
+    margin-right: 0;
+    border-radius: 0;
+  }
+  
+  .p-fluid .p-inputgroup .p-button {
+    width: auto;
+  }
+  
+  .p-fluid .p-inputgroup .p-inputtext {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+  }
+  
+  .p-inputgroup .p-checkbox,
+  .p-inputgroup .p-radiobutton {
+    margin-right: 0;
+    vertical-align: bottom;
+  }
+  
+  /* Floating Label */
+  .p-float-label {
+    position: relative;
+    display: block;
+  }
+  
+  .p-float-label label {
+    position: absolute;
+    top: 50%;
+    left: 0.25em;
+    margin-top: -0.5em;
+    font-weight: normal;
+    line-height: 1;
+    color: #898989;
+    pointer-events: none;
+    -moz-transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+  }
+  
+  .p-float-label input:focus ~ label,
+  .p-float-label input.p-filled ~ label,
+  .p-float-label .p-inputwrapper-focus ~ label,
+  .p-float-label .p-inputwrapper-filled ~ label {
+    top: -0.75em;
+    font-size: 12px;
+  }
+  
+  .p-float-label .input:-webkit-autofill ~ label {
+    top: -20px;
+    font-size: 12px;
+  }
